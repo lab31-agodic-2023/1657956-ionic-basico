@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiket</title>
+    <link type="text/css" rel="stylesheet" href="estilos.css">
+  
+</head>
+<body>
+    <h1 align="center" class="Titulo">=====TICKET DE COMPRA =====</h1>
+    <div align="center" class="contenedor">
+        <form class="texto">
+            <div class="holder">
+                <span >Articulo</span>  <input type="text" name="Articulo" value="" id="articulo">
+            </div>
+            <br>
+            <div class="holder">
+               <span >Precio</span> <input type="number" name="Precio" value="" id="precio">
+            </div>
+            <br>
+            <button type="button" id="boton" onclick="botonclick()"> Calcular Total </button>
+
+            <br><br>
+        </form>
+
+    </div>
+    <h3 align="center"> =======TU TICKET=======</h3>
+        <span align="center" id="artprecio">
+        </span>
+   
+    <br>
+    <h4 align="center"> -------------------------------------------------------------</h4>
+    <p align="center" id="total">TOTAL              $   <span id="preciototal">0</span> </p>
+
+    <script src="operaciones.js"></script>
+</body>
+</html>
