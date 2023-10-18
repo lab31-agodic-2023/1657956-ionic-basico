@@ -10,13 +10,7 @@ function botonclick() {
         articulo.value="";
         precio.value="";
     }
-function suma(){
 
-
-
-
-
-}
 
 
 
