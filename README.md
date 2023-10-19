@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 1657956-ionic-basico
 Práctica 2: Mi primer repositorio en Github
 =======
@@ -24,3 +25,6 @@ Práctica 2: Mi primer repositorio en Github
 =======
 # practica 5
 >>>>>>> 713acb8 (Practica 5)
+=======
+# practica 6
+>>>>>>> b2efdf1 (Practica 6)
