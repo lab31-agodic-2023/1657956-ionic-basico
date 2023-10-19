@@ -8,35 +8,34 @@
   
 </head>
 <body>
-    <h1 align="center" class="Titulo">=====TICKET DE COMPRA =====</h1>
     <div align="center" class="contenedor">
         <form class="texto">
-            
+            <br><br>
             <div class="holder">
                 
-                <span >Articulo</span>
-                <input type="text" name="Articulo" aria-label="lorem ipsum" value="" id="articulo">
+                <span >Usuario:</span>
+                <input type="text" name="Usuario" aria-label="lorem ipsum" value="" id="Usuario">
             </div>
             <br>
             <div class="holder">
-               <span >Precio</span>
-               <input type="number" name="Precio" aria-label="lorem ipsum" value="" id="precio">
+               <span >Password:</span>
+               <input type="text" name="Password" aria-label="lorem ipsum" value="" id="Password">
             </div>
             <br>
-            <button type="button" id="boton" onclick="botonclick()"> Calcular Total </button>
+         
+            <button type="button" id="boton" onclick="Login()"> Login </button>
+            
+            <button type="button" id="botonRegistro" onclick="Registro()"> Registrarme </button>
 
-            <br><br>
+            <br><br>            
         </form>
 
     </div>
-    <h3 align="center"> =======TU TICKET=======</h3>
-        <span align="center" id="artprecio">
-        </span>
-   
-    <br>
-    <h4 align="center"> -------------------------------------------------------------</h4>
-    <p align="center" id="total">TOTAL              $   <span id="preciototal">0</span> </p>
-
-    <script src="operaciones.js"></script>
+    <span>
+        <p id="Login"></p>
+        <p id="Registro"></p>
+    </span>
+    
+    <script src="script.js"></script>
 </body>
 </html>
