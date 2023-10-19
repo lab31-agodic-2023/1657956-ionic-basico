@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiket</title>
     <link type="text/css" rel="stylesheet" href="estilos.css">
-  
+
 </head>
+
 <body>
+    <h1 align="center" class="Titulo">=====TICKET DE COMPRA =====</h1>
     <div align="center" class="contenedor">
         <form class="texto">
-            <br><br>
-            <div class="holder">
-                
-                <span >Usuario:</span>
-                <input type="text" name="Usuario" aria-label="lorem ipsum" value="" id="Usuario">
-            </div>
-            <br>
-            <div class="holder">
-               <span >Password:</span>
-               <input type="text" name="Password" aria-label="lorem ipsum" value="" id="Password">
-            </div>
-            <br>
-         
-            <button type="button" id="boton" onclick="Login()"> Login </button>
-            
-            <button type="button" id="botonRegistro" onclick="Registro()"> Registrarme </button>
 
-            <br><br>            
+            <div class="holder">
+
+                <span>Articulo</span>
+                <input type="text" name="Articulo" aria-label="lorem ipsum" value="" id="articulo">
+            </div>
+            <br>
+            <div class="holder">
+                <span>Precio</span>
+                <input type="number" name="Precio" aria-label="lorem ipsum" value="" id="precio">
+            </div>
+            <br>
+            <button type="button" id="boton" onclick="botonclick()"> Calcular Total </button>
+
+            <br><br>
         </form>
 
     </div>
-    <span>
-        <p id="Login"></p>
-        <p id="Registro"></p>
+    <h3 align="center"> =======TU TICKET=======</h3>
+    <span align="center" id="artprecio">
     </span>
-    
-    <script src="script.js"></script>
+
+    <br>
+    <h4 align="center"> -------------------------------------------------------------</h4>
+    <p align="center" id="total">TOTAL $ <span id="preciototal">0</span> </p>
+
+    <script src="operaciones.js"></script>
 </body>
+
 </html>
