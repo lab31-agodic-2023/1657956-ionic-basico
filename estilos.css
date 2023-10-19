@@ -1,21 +1,19 @@
-.texto {
+
+.texto{
     font-size: 30px;
-
+    
 }
-
-html,
-body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 574px;
+html,body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    width: 574px; 
     height: 631px;
     margin: auto;
     padding: auto;
 
 }
-
-#boton {
-
-    background-color: #441ac1;
+#boton{
+  
+    background-color: hsl(281, 78%, 40%);
     border-radius: 20px;
     color: white;
     padding: 10px 70px;
@@ -26,12 +24,23 @@ body {
     margin: 4px 2px;
     cursor: pointer;
 }
+#boton2{
 
-#total {
+    background-color: hsl(281, 78%, 40%);
+    border-radius: 20px;
+    color: white;
+    padding: 10px 78px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#total{
     font-size: 30px;
 }
-
-.holder {
+.holder{
     display: flex;
     width: 70%;
     align-items: center;
