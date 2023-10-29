@@ -13,11 +13,24 @@ body {
 
 }
 
-.todalaventana{
-    width: 100%;
-   
-    border: 1px solid black;
-    padding: 0;
-    margin: 0;
-    background-color: #FF5733;
+
+ion-col {
+    display: flex;
+
+    background-color: #135d54;
+    border: solid 1px #000000;
+    padding: 0%;
+    margin: 0%;
+    color: #fff;
+  
 }
+
+    ion-grid {
+        height: 100%;
+        border: 1px solid black;
+    }
+
+    ion-row {
+        height: 100%;
+    }
+
